@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body
 {
     margin: 0;
@@ -258,3 +259,194 @@ form a
     background-color: skyblue;
     padding: 6px;
 }
+=======
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    padding: 15px;
+    background-color: #e1dcc5;
+}
+.main-navbar {
+    position: relative;
+    left: 0%;
+    padding-left: 30%;
+    bottom: 100px;
+}
+.main-navbar ul
+{
+    list-style: none;
+}
+.main-navbar ul li
+{
+    display: inline-block;
+    border: 1px solid skyblue ;
+    padding: 10px;
+    background-color: skyblue;
+    
+}
+.main-navbar ul li a
+{
+ text-decoration: none;
+    padding: 15px;
+    color:black;
+}
+.users
+{
+   display:inline-flex; 
+   padding-left: 20%;
+}
+
+.users a {
+    padding: 5px;
+    margin-left: 15px;
+}
+.log-in
+{
+text-decoration: none;
+color: gray;
+}
+.sign-up
+{
+    text-decoration: none;
+    border: 1px solid #3b98fc;
+    background-color: #3b98fc;
+    border-radius: 5%;
+    padding: 15px;
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    color: black;
+    padding: 11px
+}
+.slider {
+
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.slider-image img
+{
+    width:100%; 
+    height:500px;
+}
+.logo img
+{
+    width: 10%;
+}
+
+.books-items img
+{
+    display: inline-block;
+}
+
+.book-image img {
+    width: 85%;
+    height: 150px;
+    margin: 15px;
+}
+
+.read-btn {
+    text-align: center;
+    border: 1px solid skyblue;
+    background-color: #3b98fc;
+    border-radius: 2px;
+    width: 163px;
+    margin-left: 16px;
+    height: 50px;
+    padding-top: 10px;
+}
+.read-btn a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.read-btn:hover
+{
+    background-color: black;
+}
+.suponsership
+{
+    height:100px;
+    background-color:#02598b;
+    margin-bottom: 10px;
+}
+.most-saled-books
+{
+    margin-bottom: 20px;
+}
+
+.most-saled-books h2
+{
+    margin:15px;
+}
+table
+{
+    margin-bottom: 28px;
+}
+.libery
+{
+    background-color: gray;
+}
+.w3-green 
+{
+    background-color: white !important;
+}
+.w3-col s3 w3-dark-grey w3-center
+{
+    background-color: none !important;
+}
+.w3-col s3 w3-red w3-center
+{
+    background-color: none !important;
+}
+.w3-col s3 w3-red w3-center
+{
+    background-color:none !important;
+}
+.libery
+{
+    padding:10px;
+}
+.libery ul
+{
+    list-style: none;
+}
+.libery ul li 
+{
+    text-align: left;
+}
+strong
+{
+    padding-left: 15px;
+}
+.libery ul li  a
+{
+    text-decoration: none;
+}
+
+.suponsership
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.suponser-btn
+{
+    
+    background-color: #02598b;
+}
+.suponsership a{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid skyblue;
+    padding: 10px;
+    background-color: skyblue;
+}
+>>>>>>> 39d5e191749ad0e0f9a9491b952fa81dcc06c01a
