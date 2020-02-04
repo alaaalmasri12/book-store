@@ -168,4 +168,22 @@ strong
     text-decoration: none;
 }
 
+.suponsership
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
 
+.suponser-btn
+{
+    
+    background-color: #02598b;
+}
+.suponsership a{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid skyblue;
+    padding: 10px;
+    background-color: skyblue;
+}
