@@ -78,9 +78,11 @@ color: gray;
     width: 10%;
 }
 
-.books-items img
-{
+.books-items img {
     display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 30px;
 }
 
 .book-image img {
@@ -98,6 +100,20 @@ color: gray;
     margin-left: 16px;
     height: 50px;
     padding-top: 10px;
+}
+.play-btn {
+    text-align: center;
+    border: 1px solid skyblue;
+    background-color: #3b98fc;
+    border-radius: 2px;
+    width: 163px;
+    margin-left: 16px;
+    height: 50px;
+    padding-top: 10px;
+}
+.play-btn
+{
+    text-decoration: none;
 }
 .read-btn a
 {
@@ -168,4 +184,77 @@ strong
     text-decoration: none;
 }
 
+.suponsership
+{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
 
+.suponser-btn
+{
+    
+    background-color: #02598b;
+}
+.suponsership a{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid skyblue;
+    padding: 10px;
+    background-color: skyblue;
+}
+.book-pricing
+{
+    background-color: #393e46;
+    text-align: center;
+    font-family: 'Lobster',cursive;
+    color: #4EccA3;
+    margin-bottom: 20px;
+}
+.book1-price 
+{
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+}
+.book2-price
+{
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+}
+.book2-price p {
+    padding-left: 125px;
+}
+.img2
+{
+    position: relative;
+    left: 30%;
+}
+.form-contact
+{
+    position: relative;
+}
+.form-contact {
+    background-image: url(../images/book.jpeg);
+    background-size: 100% 100%;
+    height: 220px;
+    margin-bottom: 4px;
+}
+.book-form h3,h1
+{
+    text-align: center;
+    color: #fff;
+
+}
+.form-contact
+{
+    text-align: center;
+    padding-top: 30px;
+}
+form a
+{
+    text-decoration: none;
+    background-color: skyblue;
+    padding: 6px;
+}
