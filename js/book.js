@@ -75,7 +75,7 @@ var image2=document.querySelectorAll(".book-img2")[0];
 image1.setAttribute("src",imagesource1);
 image2.setAttribute("src",imagesource2)
 }
-function chanegcolor() {
+function delivery() {
     var payment=window.prompt("how do you prefer buying books");
     switch (payment) {
         case "credit":
