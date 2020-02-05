@@ -1,7 +1,4 @@
-var name=window.prompt("whats your name???");
-var age=window.prompt("whats your age");
-var price=window.prompt("what is your expected price book on this site?");
-var catagory=window.prompt("whats your favourite catagory");
+
 if(price>=200)
 {
 alert("that an expensive book mr" +" "+name);
@@ -16,10 +13,6 @@ else
 }
 var randombook1=Math.floor(Math.random()*6)+1;
 var randombook2=Math.floor(Math.random()*6)+1;
-
-
-
-
 if(randombook1>randombook2)
 {
     document.querySelector("h1").innerHTML="book1 is the winner";
