@@ -1,4 +1,7 @@
-
+var name=window.prompt("whats your name???");
+var age=window.prompt("whats your age");
+var price=window.prompt("what is your expected price book on this site?");
+var catagory=window.prompt("whats your favourite catagory");
 if(price>=200)
 {
 alert("that an expensive book mr" +" "+name);
