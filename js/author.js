@@ -9,7 +9,7 @@ function author()
         // alert("author name as been displayed in the console");
        // console.log(author[i]);
        if(author[i] === authors)
-        document.write("<h5 style='text-align:center;">your faviourite author is</h5>" +" "+ author[i]);
+        document.write("<h5>your faviourite author is</h5>"+ author[i]);
     }
 
 }
