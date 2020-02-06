@@ -1,7 +1,8 @@
-var name=window.prompt("whats your name???");
-var age=window.prompt("whats your age");
+
+function price()
+{
+    var name=window.prompt("whats your name???");
 var price=window.prompt("what is your expected price book on this site?");
-var catagory=window.prompt("whats your favourite catagory");
 if(price>=200)
 {
 alert("that an expensive book mr" +" "+name);
@@ -14,21 +15,7 @@ else
 {
     alert("you are poor go to work and get money");
 }
-var randombook1=Math.floor(Math.random()*6)+1;
-var randombook2=Math.floor(Math.random()*6)+1;
-
-
-
-
-if(randombook1>randombook2)
-{
-    document.querySelector("h1").innerHTML="book1 is the winner";
-}
-else
-{
-    document.querySelector("h1").innerHTML="book2 is the winner"
-}
-
+var catagory=window.prompt("whats your favourite catagory");
 switch(catagory)
 {
     case "drama":
@@ -75,6 +62,64 @@ var image2=document.querySelectorAll(".book-img2")[0];
 image1.setAttribute("src",imagesource1);
 image2.setAttribute("src",imagesource2)
 }
+}
+
+
+var randombook1=Math.floor(Math.random()*6)+1;
+var randombook2=Math.floor(Math.random()*6)+1;
+
+
+
+
+if(randombook1>randombook2)
+{
+    document.querySelector("h1").innerHTML="book1 is the winner";
+}
+else
+{
+    document.querySelector("h1").innerHTML="book2 is the winner"
+}
+
+
+/*function booksuggest()
+{
+    var booktype=window.prompt("what kind of books do you like?")
+    var age=window.prompt("whats your age");
+
+    var bookcatagory=Array('horror','drama','comedy','thiriller');
+    var i=0;
+    while(i<=bookcatagory.length)
+    {
+    
+        if(bookcatagory[i] === booktype  && age>25)
+        {
+ var message=alert("most sold horror book is Dracula check it out  kids are not allowed to read it!");
+ break;
+        }
+       
+        else if (bookcatagory[i] === booktype)
+        {
+           var message= alert("most sold drama book is Dracula check it out !");
+           break;
+
+        }
+         else if (bookcatagory[i] == booktype)
+        {
+            var message=alert("most sold comedy book is Bossypants check it out !");
+            break;
+        }
+        else if (bookcatagory[i] == booktype)
+        {
+            var message=alert("most sold comedy book is thiriler check it out !");
+            break;
+        }
+        
+    
+        i++;   
+}
+}
+
+*/
 function delivery() {
     var payment=window.prompt("how do you prefer buying books");
     switch (payment) {
