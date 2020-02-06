@@ -15,7 +15,21 @@ else
 {
     alert("you are poor go to work and get money");
 }
+<<<<<<< HEAD
 var catagory=window.prompt("whats your favourite catagory");
+=======
+var randombook1=Math.floor(Math.random()*6)+1;
+var randombook2=Math.floor(Math.random()*6)+1;
+if(randombook1>randombook2)
+{
+    document.querySelector("h1").innerHTML="book1 is the winner";
+}
+else
+{
+    document.querySelector("h1").innerHTML="book2 is the winner"
+}
+
+>>>>>>> 29c8a419a76cb95c8cce56e20a109d5c52530d7c
 switch(catagory)
 {
     case "drama":

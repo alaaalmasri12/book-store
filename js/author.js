@@ -1,6 +1,7 @@
 
 function author()
 {
+    
     var author=Array('William Shakespeare','Emily Dickinson',' H. P. Lovecraft','Leo Tolstoy');
     for(var i=0;i<=author.length;i++)
     {
